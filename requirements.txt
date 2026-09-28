@@ -1,0 +1,6 @@
+pytelegrambotapi
+google-genai
+flask
+gtts
+pypdf
+python-docx
