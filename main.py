@@ -38,7 +38,8 @@ def echo_all(message):
         response = model.generate_content(message.text)
         bot.reply_to(message, response.text)
     except Exception as e:
-        bot.reply_to(message, "माफ़ कीजिए, उत्तर देने में कोई समस्या आई।")
+        bot.reply_to(message,         bot.reply_to(message, f"Error: {e}")
+
 
 print("Bot is starting...")
 bot.infinity_polling()
