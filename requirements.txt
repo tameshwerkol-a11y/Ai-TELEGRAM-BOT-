@@ -4,3 +4,4 @@ flask
 gtts
 pypdf
 python-docx
+gunicorn
